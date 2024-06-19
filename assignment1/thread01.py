@@ -13,4 +13,4 @@ def task():
 thread = Thread(target=task)
 thread.start()
 print(f'{ctime()} waiting for the thread...')
-thread.join()
+thread.join() 
