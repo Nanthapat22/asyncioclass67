@@ -1,4 +1,4 @@
-# Starting a Thread
+# Starting a Threa
 # Working With Many Threads
 import logging
 import threading
