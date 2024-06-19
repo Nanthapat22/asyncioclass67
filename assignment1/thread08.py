@@ -30,7 +30,7 @@ if __name__ == "__main__":
             executor.submit(database.update, index)
 
     # Wait for all threads to complete
-    executor.shutdown(wait=True)
+    excutor.shutdown(wait=True)
     
     logging.info("Testing update. Ending value is %d.", database.value)
 
